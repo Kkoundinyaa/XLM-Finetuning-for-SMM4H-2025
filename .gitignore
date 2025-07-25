@@ -1,0 +1,47 @@
+# Python virtual environment
+task1_env/
+.venv/
+env/
+
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Common OS temporary files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Large data files / outputs (adjust as needed!)
+*.csv
+*.log
+*.bin
+*.npy
+*.pkl
+*.h5
+*.onnx
+*.pt # PyTorch model files
+*.tf # TensorFlow model files
+*.ckpt # Checkpoint files
+
+# Directories that contain output, models, or large data
+data/
+models/
+output/
+results/
+confusion_matrices/
+confusion_matrices_xlmv/
+loss_curves/
+results_fr/
+final_submission.csv
+submission_dev_combined.csv
+submission_dev_xlm-v.csv
+test_data_SMM4H_2025_Task_1_no_labels.csv
+train_data_SMM4H_2025_Task_1.csv
+f1_comparison_xlmr_xlmv.png
+language_metrics.csv
+language_metrics_comparison.csv
+language_metrics_xlmv.csv
+xlm_comparison_table.png
